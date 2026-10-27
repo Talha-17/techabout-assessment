@@ -1,0 +1,3 @@
+record_id,field,raw_value,problem,action_taken
+101,record_id,101,Duplicate record_id,Dropped duplicate row
+110,amount_raw,,Empty amount,Flagged row

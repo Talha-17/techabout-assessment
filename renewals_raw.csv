@@ -1,0 +1,13 @@
+record_id,customer_id,domain,service,billing_cycle_months,amount_raw,registered_on,renews_on,status,contact_email
+101,CUST-001,http://www.pkhosting-test.com,VPS Hosting,12,PKR 18500.00,2025-08-01,2026-08-15,Active,alice@example.com
+102,CUST-002,mydomain.pk,SSL Certificate,1,1500,2026-07-01,2026-08-05,Active,bob@example.com
+101,CUST-001,pkhosting-test.com,VPS Hosting,12,PKR 18500,2025-08-01,2026-08-15,Active,alice@example.com
+103,CUST-003,sub.site.com.pk,Hosting,12,5000.50,25/12/2025,25/08/2026,Active,charlie@example.com
+104,CUST-004,bad-date.pk,Domain,12,1200,12/25/2025,12/25/2026,Active,dave@example.com
+105,CUST-005,usd-client.com,Hosting,12,50 USD,01/01/2026,01/01/2027,Active,eva@example.com
+106,CUST-006,suspended-site.pk,VPS Hosting,6,9000,01/01/2026,2026-08-10,Suspended,frank@example.com
+107,CUST-007,refund-domain.pk,Hosting,12,-5000,01/06/2026,2026-08-20,Refunded,grace@example.com
+108,CUST-008,cancelled-service.pk,SSL Certificate,1,1200,01/01/2026,2026-08-25,Cancelled,hannah@example.com
+109,CUST-009,ambiguous-date.pk,Hosting,12,4500,03/04/2025,03/04/2026,Active,ian@example.com
+110,CUST-010,missing-amount.pk,Hosting,12,,01/01/2026,2026-08-12,Active,julia@example.com
+111,CUST-011,future-date.pk,Hosting,12,6000,2026-08-03,2035-08-03,Active,kevin@example.com
